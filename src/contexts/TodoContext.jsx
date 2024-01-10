@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react"
 import axios from "axios"
 
-const apiUrl = 'https://api-trb1.onrender.com/todos/'
+const apiUrl = 'https://apid-cscp.onrender.com'
 const TodoContext = createContext()
 
 function TodoContextProvider(props) {
